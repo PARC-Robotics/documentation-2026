@@ -2,61 +2,42 @@
 
 ![Motivating image](./assets/overview.PNG)
 
-REMEMBER TO CHANGE THE GIT REMOTE TO PUSH TO THE (YET TO BE CREATED) repo for documentation 2026
+The stadiums of the future will be powered by intelligent digital assistants that help visitors navigate venues, access information, enhance safety, and improve the overall event experience. Combining robotics, Artificial Intelligence (AI), computer vision, and smart infrastructure, these assistants will play an increasingly important role in major sporting
+and entertainment events.
 
-Need to create a virtual environment before we can install the python stuff for mkdocs
+This year, the 2026 PARC Engineers League invites participants to design, test and deploy indoor navigation and AI solutions on the [CAYTU Sito-É Robot](https://www.youtube.com/watch?v=0Aslbz0mBSg){target=_blank}, an autonomous service robot provided by the organizers. Acting as a digital stadium assistant, the robot will interact with visitors, understand natural language requests, perceive its surroundings, and access information from connected stadium systems to deliver useful services in a dynamic event environment. 
 
-Precision agriculture is [increasingly being adopted in modern agriculture](https://www.sciencedirect.com/science/article/abs/pii/S016816992300813X) around the world and it has the potential of tackling the global challenge of food security. 
-
-This form of agriculture utilizes different technologies like GPS, drone and satellite imagery, remote sensing platforms, automation and Artificial Intelligence (AI) to enhance crop (and livestock) production by enabling farmers to efficiently apply what crops need --- such as water, herbicide and fertilizer --- in the exact place, at the exact time and in the exact amount. As a result, these resources are better managed which help farmers cut down costs, improve crop yields and productivity.
-
-Last year's edition of the PARC Engineer's League was centered around sustainable agriculture and the challenges involved autonomously navigating the **PARC AgRobot** (a wheeled mobile Agricultural robot) through a tomato field and estimating the crop yield.
-
-This year, the 2025 PARC Engineer's League invites participants to design and develop an autonomous system capable of efficiently applying fertilizers across large agricultural fields to boost crop yield and sustainability. This will involve building software to autonomously navigate the **PARC AgRobot** through maize fields with varying row layouts and uneven terrain, and designing a fertilizer implement capable of optimizing fertilizer application on the maize plants.
+Teams will transform the CAYTU Sito-É Robot into an intelligent companion capable of supporting spectators, athletes, staff, and event organizers through services such as visitor guidance, event information, multilingual interaction, accessibility assistance, crowd awareness, smart facility integration, and other innovative applications that enhance the stadium experience.
 
 The competition consists of two phases: the **Simulation Phase** and the **Real World Phase**.
 
 ## Simulation Phase
 
-The simulation phase consists of two tracks:
+The simulation phase consists of two challenges:
 
-* Autonomy track
-* Design track
+* Navigation challenge
+* Vision challenge
 
-<br> 
+### Navigation Challenge
 
-<p align="center">
-    <img title='Challenge tracks' src=./assets/challenge_tracks.png>
-</p>
+For this challenge, teams will work with the **CAYTU Sito-É** in simulation (using the Gazebo Harmonic Robot Simulator) and use state-of-the-art tools (e.g. ROS2, Nav2, etc.) to build a software solution to autonomously navigate the robot in a restaurant within a smart stadium.
 
-<br>
+### Vision Challenge
 
-### Autonomy track
+Deploying autonomous robots in smart stadiums requires analyzing real-time camera streams under extreme crowds and dynamic lighting. In this challenge, teams will deploy a local vision language model (VLM) using Ollama to generate real-time visual descriptions of scenes and objects streamed from the top **CAYTU Sito-É** camera. 
 
-For the autononmy track, teams will work with the **PARC AgRobot** in simulation (using the Gazebo Harmonic Robot Simulator) and use state-of-the-art tools (e.g., ROS, OpenCV, etc.) to build a software solution to autonomously navigate maize fields with different row layouts and rough terrain.
-
-### Design track
-
-The design track involves designing a fertilizer implement, a sprayer or spreader for instance, using CAD software --- like Fusion 360, SolidWorks, or FreeCAD --- and simulating the implement in motion. The implement should be designed to be integrated with the **PARC AgRobot**. 
-
----
-
-Teams can choose to either work on **one** or **both** tracks.
-
-Detailed instructions for the respective tracks are made available in this documentation. Teams are required to complete and upload their solutions on or before the Phase 1 deadline. Following team evaluations, best performing teams will qualify to compete in Phase 2: **Real World Phase**.
+Detailed instructions for the respective challenges are made available in this documentation. Teams are required to complete and upload their solutions on or before the Phase 1 deadline. Following team evaluations, best performing teams will qualify to compete in Phase 2: **Real World Phase**.
 
 ## Real World Phase
 
 <!-- ![robot](images/bot.jpg) -->
 
-This phase will take place in-person in Senegal in July 2025. The **top 10 teams** that chose the autonomy track will compete by integrating their navigation solution on the physical **PARC AgRobot** in a partner farm. 
+This phase will take place in-person in Senegal in November 2026. 
 
-Likewise, the **top 10 teams** that opted for the design track will compete by presenting and demonstrating a prototype of their fertilizer implement solution. More marks will be awarded to teams that are able to successfully integrate their prototype with the **PARC AgRobot**.
-
-The top finalists must submit their **$250 USD** team registration fee to PARC by **June 9, 2025** to secure their spot. This is a one-time payment covering the entire team's registration. In return, PARC will provide each team with lodging, daily meals (breakfast, lunch and dinner), transportation to and from the airport, and transportation between the dormitory and competition arena.
+The **top 10 teams** that will compete by integrating their innovative solutions on the physical **CAYTU Sito-É**.
 
 ## Certificates & Awards
 
 All participants who qualify to the real world phase will receive a certificate of participation.
 
-The winner of each track will be given a cash reward of **$1000**.
+The winner of the competition will be given a cash reward of **$1000**.

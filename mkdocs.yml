@@ -87,9 +87,8 @@ nav:
     - Competition Instructions:
       - "Phase 1: Simulation":
         - Introduction: competition-instructions/phase-1/introduction.md
-        - "Autonomy Track": competition-instructions/phase-1/autonomy-track.md
-        - "Design Track": competition-instructions/phase-1/design-track.md
-        # - "Task 3: Seed Planting": competition-instructions/phase-1/task-3-seed-planting.md
+        - "Navigation Challenge": competition-instructions/phase-1/task1-navigation.md
+        - "Vision Challenge": competition-instructions/phase-1/task2-vision.md
         - How to Submit: competition-instructions/phase-1/how-to-submit.md
       - "Phase 2: Physical Robot": competition-instructions/phase-2/introduction.md
       # - Team Naming Conventions: competition-instructions/team-naming-conventions.md
@@ -123,9 +122,8 @@ plugins:
           Resources and Support: Ressources et soutien
           "Phase 1: Simulation": "Phase 1: Simulation"
           "Phase 2: Physical Robot": "Phase 2: Robot physique"
-          "Autonomy Track": "Piste D'autonomie"
-          "Design Track": "Piste de Conception"
-          # "Task 3: Seed Planting": "Tâche 3: Plantation des graines"
+          "Task 1": "Défi de Navigation"
+          "Task 2": "Défi de Vision"
           "Objectives and goals": "Objectifs et objectifs"
           "Prizes and rewards": "Prix et récompenses"
           "How to register": "Comment s'inscrire"
