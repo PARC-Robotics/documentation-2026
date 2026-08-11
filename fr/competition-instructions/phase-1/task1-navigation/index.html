@@ -938,6 +938,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#preparer-votre-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Préparer votre Solution
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1284,6 +1295,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#preparer-votre-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Préparer votre Solution
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1422,7 +1444,7 @@ Les robots agricoles doivent être capables de se déplacer à travers les cultu
 <p>Dans un nouveau terminal, exécutez le fichier de lancement suivant pour lancer le robot dans Gazebo et RViz :</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_1.launch.py
 </code></pre></div>
-<p>Vous devriez voir l&rsquo;affichage ci-dessous dans Gazebo et RViz respectivement. À droite, le robot et à gauche, le cercle vert qui représente l&rsquo;emplacement cible.</p>
+<p>Vous devriez voir l&rsquo;affichage ci-dessous dans Gazebo et RViz respectivement. À droite, le robot est au centre et en haut à gauche se trouve le cercle vert qui représente l&rsquo;emplacement de l&rsquo;objectif.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Gazebo</label><label for="__tabbed_1_2">RViz</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1433,52 +1455,24 @@ Les robots agricoles doivent être capables de se déplacer à travers les cultu
 </div>
 </div>
 </div>
-<p>&lt;!&ndash; ### Explorer Plusieurs Mondes</p>
-<p>Nous avons préparé trois mondes que vous pouvez utiliser pour développer votre solution, chacun ayant une disposition et une longueur de ligne différentes.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Monde 1</label><label for="__tabbed_2_2">Monde 2</label><label for="__tabbed_2_3">Monde 3</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="world1" src="../../../../competition-instructions/assets/World1.jpg" /></p>
-</div>
-<div class="tabbed-block">
-<p><img alt="world2" src="../../../../competition-instructions/assets/World2.jpg" /></p>
-</div>
-<div class="tabbed-block">
-<p><img alt="world3" src="../../../../competition-instructions/assets/World3.jpg" /></p>
-</div>
-</div>
-</div>
-<p>La route par défaut est <code>world1</code>, mais vous pouvez sélectionner les deuxième et troisième options de route (<code>world2</code> et <code>world3</code>) en passant l&rsquo;argument dans la commande <code>ros2 launch</code> comme suit :</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">## monde2</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_launch.py<span class="w"> </span>​​world:<span class="o">=</span>world2
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1">## monde3</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_launch.py<span class="w"> </span>​​world:<span class="o">=</span>world3
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="sb">```</span><span class="w"> </span>--&gt;
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1">### Préparer votre Solution</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>*<span class="w"> </span>Votre<span class="w"> </span>solution<span class="w"> </span>doit<span class="w"> </span>être<span class="w"> </span>préparée<span class="w"> </span>sous<span class="w"> </span>forme<span class="w"> </span>de<span class="w"> </span>packages<span class="w"> </span>ROS<span class="w"> </span>à<span class="w"> </span>enregistrer<span class="w"> </span>dans<span class="w"> </span>votre<span class="w"> </span>dossier<span class="w"> </span>de<span class="w"> </span>solutions.<span class="w"> </span>Créez<span class="w"> </span>un<span class="w"> </span>fichier<span class="w"> </span>exécutable<span class="w"> </span>de<span class="w"> </span>nœud<span class="w"> </span>dans<span class="w"> </span>votre<span class="w"> </span>package<span class="w"> </span>ROS<span class="w"> </span>qui<span class="w"> </span>exécute<span class="w"> </span>TOUT<span class="w"> </span>le<span class="w"> </span>code<span class="w"> </span>nécessaire<span class="w"> </span>à<span class="w"> </span>votre<span class="w"> </span>solution.<span class="w"> </span>Nommez<span class="w"> </span>ce<span class="w"> </span>fichier<span class="w"> </span>:<span class="w"> </span><span class="sb">`</span>task_solution.py<span class="sb">`</span>.
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>*<span class="w"> </span>Par<span class="w"> </span>conséquent,<span class="w"> </span>votre<span class="w"> </span>solution<span class="w"> </span>doit<span class="w"> </span>être<span class="w"> </span>exécutée<span class="w"> </span>en<span class="w"> </span>appelant<span class="w"> </span>les<span class="w"> </span>commandes<span class="w"> </span>suivantes<span class="w"> </span>:
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
-<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>Dans<span class="w"> </span>un<span class="w"> </span>terminal<span class="w"> </span>:
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="sb">```</span>sh
-<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_launch.py
-</code></pre></div>
-<p>Ou</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_launch.py<span class="w"> </span>​​world:<span class="o">=</span>world2
-</code></pre></div>
-<p>Ou</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_launch.py<span class="w"> </span>​​world:<span class="o">=</span>world3
+<h3 id="preparer-votre-solution">Préparer votre Solution<a class="headerlink" href="#preparer-votre-solution" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Votre solution doit être préparée sous forme de packages <abbr title="Robot Operating System">ROS</abbr> à enregistrer dans votre dossier de solutions. Créez un fichier exécutable de nœud dans votre package <abbr title="Robot Operating System">ROS</abbr> qui exécute TOUT le code nécessaire à votre solution. Nommez ce fichier : <code>task_solution.py</code>.</p>
+</li>
+<li>
+<p>Par conséquent, votre solution doit être exécutée en appelant les commandes suivantes :</p>
+</li>
+</ul>
+<p>Dans un terminal :</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_1.launch.py
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Veuillez patienter jusqu&rsquo;à ce que les modèles du monde et du robot soient générés. Ce processus peut prendre plus de temps que d&rsquo;habitude, surtout lors de la première exécution du programme.</p>
 </div>
 <p>Dans un autre terminal:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>ros2<span class="w"> </span>run<span class="w"> </span>&lt;le-nom-de-votre-colis&gt;<span class="w"> </span>task_solution.py&gt;
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ros2<span class="w"> </span>run<span class="w"> </span>&lt;le-nom-de-votre-colis&gt;<span class="w"> </span>task_solution.py&gt;
 </code></pre></div>
 <p>Les fichiers de lancement peuvent également être utilisés dans votre solution.</p>
 <h2 id="regles-de-tache">Règles de Tâche<a class="headerlink" href="#regles-de-tache" title="Permanent link">&para;</a></h2>
@@ -1511,7 +1505,7 @@ Les robots agricoles doivent être capables de se déplacer à travers les cultu
 <tr>
 <td>2</td>
 <td><strong>Évitement d&rsquo;obstacles</strong></td>
-<td>Le robot doit éviter tout contact avec les plants de maïs. <strong>(Moins de contact, c&rsquo;est mieux)</strong></td>
+<td>Le robot doit éviter tout contact avec les obstacles. <strong>(Moins de contact, c&rsquo;est mieux)</strong></td>
 </tr>
 <tr>
 <td>3</td>
