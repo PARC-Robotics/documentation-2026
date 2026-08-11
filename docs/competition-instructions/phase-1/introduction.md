@@ -2,14 +2,18 @@
 
 ## Navigation Challenge
 
-<!-- Nav2 -->
+The simulation platform to be used in this challenge is [Gazebo Harmonic](https://gazebosim.org/docs/harmonic/install_ubuntu/){target=_blank}. Teams are required to develop, test and submit software to successfully complete the task of autonomously navigating the **CAYTU Sito-É** in the restaurant, from its start position to the goal position. 
 
-The simulation platform to be used in this challenge is [Gazebo Harmonic](https://gazebosim.org/docs/harmonic/install_ubuntu/). Teams are required to develop, test and submit software to successfully complete the task of autonomously navigating the **CAYTU Sito-É** in the restaurant, from its start position to the goal position. 
+To attempt this challenge, teams are encouraged to use the [Nav2](https://docs.nav2.org/index.html){target=_blank} navigation framework. The following links provide documentation and tutorials on getting started with Nav2. 
+
+* [Nav2 Getting Started Guide](https://docs.nav2.org/getting_started/index.html){target=_blank}
+* [Jazzy - Intermediate - ROS 2 Navigation (Nav2)](https://www.youtube.com/playlist?list=PLNWNEEf8BvG45noktLVI9N0SmD72BpmH7){target=_blank}
 
 ## Vision Challenge
-In progress
 
-Teams are provided with the **CAYTU Sito-É**'s ROS 2 packages and Gazebo environment models (see description below) to enable them develop and test their solutions (see [GitHub Repository](https://github.com/PARC-Robotics/PARC2026-Engineers-League)).
+**In progress*
+
+Teams are provided with the **CAYTU Sito-É**'s ROS 2 packages and Gazebo environment models (see description below) to enable them develop and test their solutions (see [GitHub Repository](https://github.com/PARC-Robotics/PARC2026-Engineers-League){target=_blank}).
 
 ### The CAYTU Sito-É
 

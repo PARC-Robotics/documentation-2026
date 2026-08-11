@@ -15,7 +15,8 @@ Dans un nouveau terminal, exécutez le fichier de lancement suivant pour lancer 
 ros2 launch parc_robot_bringup task_1.launch.py
 ```
 
-Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. À droite, le robot et à gauche, le cercle vert qui représente l'emplacement cible.
+Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. À droite, le robot est au centre et en haut à gauche se trouve le cercle vert qui représente l'emplacement de l'objectif.
+
 
 === "Gazebo"
     ![task1_gazebo](../assets/gazebo.png)
@@ -23,29 +24,6 @@ Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. À 
 === "RViz"
     ![task1_rviz](../../getting-started-tutorials/assets/rviz.png)
 
-<!-- ### Explorer Plusieurs Mondes
-
-Nous avons préparé trois mondes que vous pouvez utiliser pour développer votre solution, chacun ayant une disposition et une longueur de ligne différentes.
-
-=== "Monde 1"
-    ![world1](../assets/World1.jpg)
-
-=== "Monde 2"
-    ![world2](../assets/World2.jpg)
-
-=== "Monde 3"
-    ![world3](../assets/World3.jpg)
-
-
-La route par défaut est `world1`, mais vous pouvez sélectionner les deuxième et troisième options de route (`world2` et `world3`) en passant l'argument dans la commande `ros2 launch` comme suit :
-
-```sh
-## monde2
-ros2 launch parc_robot_bringup task_launch.py ​​world:=world2
-
-## monde3
-ros2 launch parc_robot_bringup task_launch.py ​​world:=world3
-``` -->
 
 ### Préparer votre Solution
 
@@ -56,19 +34,7 @@ ros2 launch parc_robot_bringup task_launch.py ​​world:=world3
 Dans un terminal :
 
 ```sh
-ros2 launch parc_robot_bringup task_launch.py
-```
-
-Ou
-
-```sh
-ros2 launch parc_robot_bringup task_launch.py ​​world:=world2
-```
-
-Ou
-
-```sh
-ros2 launch parc_robot_bringup task_launch.py ​​world:=world3
+ros2 launch parc_robot_bringup task_1.launch.py
 ```
 
 !!! note
@@ -95,6 +61,6 @@ La notation de cette tâche repose sur les critères suivants :
 | S/N | Critères/Indicateurs | Description |
 | ----------- | ----------- | ------- |
 | 1 | **Chemin prédéfini** | Suivez le chemin comme expliqué dans [Description du monde](#explorer-plusieurs-mondes). |
-| 2 | **Évitement d'obstacles** | Le robot doit éviter tout contact avec les plants de maïs. **(Moins de contact, c'est mieux)** |
+| 2 | **Évitement d'obstacles** | Le robot doit éviter tout contact avec les obstacles. **(Moins de contact, c'est mieux)** |
 | 3 | **Distance finale jusqu'à l'objectif** | Distance la plus courte entre le robot (mesurée depuis son centre) et l'objectif à travers les rangs de culture, calculée à la limite de temps [12 minutes] **(Plus petite, mieux c'est)**
 | 4 | **Temps de réalisation** | Temps écoulé entre le lancement de la solution et la réalisation de la tâche **(Plus petite, mieux c'est)** |

@@ -15,36 +15,13 @@ In a new terminal, run the following launch file to bring up the robot in Gazebo
 ros2 launch parc_robot_bringup task_1.launch.py
 ```
 
-You should see the display below in Gazebo and RViz respectively. To the right, there's the robot and to the left is the green circle which represents the goal location.
+You should see the display below in Gazebo and RViz respectively. To the right, there's the robot in the middle and towards the top left is the green circle which represents the goal location.
 
 === "Gazebo"
     ![task1_gazebo](../assets/gazebo.png)
 
 === "RViz"
     ![rviz](../../getting-started-tutorials/assets/rviz.png)
-
-<!-- ### Exploring Multiple Worlds
-We have prepared three worlds you can use as you develop your solution with each world having different row layouts and row lengths.
-
-=== "World 1"
-    ![world1](../assets/World1.jpg)
-
-=== "World 2"
-    ![world2](../assets/World2.jpg)
-
-=== "World 3"
-    ![world3](../assets/World3.jpg)
-
-
-The default route is `world1`, but you can select the second and third route option (`world2` and `world3`) by passing the argument in the `ros2 launch` command as follows:
-
-```sh
-## world2
-ros2 launch parc_robot_bringup task_launch.py world:=world2
-
-## world3
-ros2 launch parc_robot_bringup task_launch.py world:=world3
-``` -->
 
 ### Preparing your Solution
 * Your solution should be prepared as ROS packages to be saved in your solution folder. Create a node executable file in your ROS package which runs ALL the code you need in your solution. Name this node file: `task_solution.py`.
@@ -54,19 +31,7 @@ ros2 launch parc_robot_bringup task_launch.py world:=world3
 In one terminal:
 
 ```sh
-ros2 launch parc_robot_bringup task_launch.py
-```
-
-Or 
-
-```sh
-ros2 launch parc_robot_bringup task_launch.py world:=world2
-```
-
-Or
-
-```sh
-ros2 launch parc_robot_bringup task_launch.py world:=world3
+ros2 launch parc_robot_bringup task_1.launch.py
 ```
 
 !!! note "Note"

@@ -192,7 +192,7 @@ Pour voir le fonctionnement, exécutez d'abord le robot en simulation en exécut
 
 ```shell
 source ~/ros2_ws/install/setup.bash
-ros2 launch parc_robot_bringup task_launch.py
+ros2 launch parc_robot_bringup task_1.launch.py
 ```
 
 Et exécutez les commandes suivantes dans un autre terminal pour exécuter ce nouveau programme :
@@ -204,4 +204,4 @@ ros2 run test_publisher move_robot
 
 Si vous avez bien configuré tout, vous devriez voir le robot se déplacer dans Gazebo comme ci-dessous.
 
-![publisher demo](assets/getting_started_demo.gif)
+<!-- ![publisher demo](assets/getting_started_demo.gif) -->
