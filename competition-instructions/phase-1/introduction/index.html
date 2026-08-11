@@ -885,7 +885,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Navigation Challenge">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vision-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vision Challenge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vision Challenge">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1226,7 +1237,18 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Navigation Challenge">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vision-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vision Challenge
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vision Challenge">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1349,24 +1371,22 @@
 <h2 id="navigation-challenge">Navigation Challenge<a class="headerlink" href="#navigation-challenge" title="Permanent link">&para;</a></h2>
 <!-- Nav2 -->
 
-<p>The simulation platform to be used in this track is <a href="https://gazebosim.org/docs/harmonic/install_ubuntu/">Gazebo Harmonic</a>. Teams are required to develop, test and submit software to successfully complete the task of autonomously navigating the <strong>CAYTU Sito-É</strong> through maize fields. </p>
+<p>The simulation platform to be used in this challenge is <a href="https://gazebosim.org/docs/harmonic/install_ubuntu/">Gazebo Harmonic</a>. Teams are required to develop, test and submit software to successfully complete the task of autonomously navigating the <strong>CAYTU Sito-É</strong> in the restaurant, from its start position to the goal position. </p>
+<h2 id="vision-challenge">Vision Challenge<a class="headerlink" href="#vision-challenge" title="Permanent link">&para;</a></h2>
+<p>In progress</p>
 <p>Teams are provided with the <strong>CAYTU Sito-É</strong>&rsquo;s <abbr title="Robot Operating System">ROS</abbr> 2 packages and Gazebo environment models (see description below) to enable them develop and test their solutions (see <a href="https://github.com/PARC-Robotics/PARC2026-Engineers-League">GitHub Repository</a>).</p>
 <h3 id="the-caytu-sito-e">The CAYTU Sito-É<a class="headerlink" href="#the-caytu-sito-e" title="Permanent link">&para;</a></h3>
 <p>The <strong>CAYTU Sito-É</strong> is an unmanned ground vehicle (UGV) equipped with different sensors to help you achieve your goal. The sensors are:</p>
 <ul>
 <li>
-<p><strong>RPLIDAR C1:</strong> A LiDAR sensor located at the top of the base of the robot. The RPLIDAR C1 publishes the <code>/scan</code> topic.</p>
+<p><strong>RPLIDAR C1:</strong> A LiDAR sensor located at the top of the base of the robot. The RPLIDAR C1 publishes on the <code>/scan</code> topic.</p>
 </li>
 <li>
-<p><strong>D435i Camera (x2):</strong> Two side-facing RGB cameras are provided at the left and right side of the robot. These cameras are suspended via an overhang and gives top-view of the farmland. The topics published by these cameras have group names which are <code>/top_camera/</code> and <code>/right_camera/</code>.</p>
+<p><strong>D435i Depth Camera (x2):</strong> One camera is mounted below the monitor the robot and the other towards the robot&rsquo;s base. These cameras publish color data on the topics <code>/top_camera_color/image_raw</code> and <code>/bottom_camera_color/image_raw</code> and 3D point cloud data on <code>/top_camera_depth/points</code> and <code>/bottom_camera_depth/points</code>. There are also topics for compressed images which use lower bandwidth compared to the standard raw image. Considering the top D435i camera, these topics are <code>/top_camera_color/image_raw/compressed</code> and <code>/top_camera_color/image_raw/theora</code>, with similar topics available for the bottom D435i camera as well.</p>
 </li>
-</ul>
-<!-- The depth blah blah -->
-
-<!-- * **ZED 2i Camera:** This is a stereo camera at the front of the robot base. It publishes all the `/zed2/` topics including point cloud data(`/zed2/point_cloud/cloud_registered`) -->
-
-<ul>
-<li><strong>IMU:</strong> An IMU sensor is added to the base and publishes on the <code>/imu</code> topic.</li>
+<li>
+<p><strong>IMU:</strong> An IMU sensor is added to the base and publishes on the <code>/imu</code> topic.</p>
+</li>
 </ul>
 <p>The figure below shows the Sito-É with the sensors labelled.</p>
 <p><img alt="robot" src="../../assets/robot_sensor_label.png" /></p>

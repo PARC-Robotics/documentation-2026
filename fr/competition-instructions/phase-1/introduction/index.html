@@ -885,7 +885,29 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Défi de Navigation">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defi-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Défi Vision
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defi-de-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Défi de Vision
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Défi de Vision">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1226,7 +1248,29 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Défi de Navigation">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defi-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Défi Vision
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defi-de-vision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Défi de Vision
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Défi de Vision">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1347,22 +1391,22 @@
 
 <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
 <h2 id="defi-de-navigation">Défi de Navigation<a class="headerlink" href="#defi-de-navigation" title="Permanent link">&para;</a></h2>
-<p>La plateforme de simulation utilisée pour ce parcours est <a href="https://gazebosim.org/docs/harmonic/install_ubuntu/">Gazebo Harmonic</a>. Les équipes doivent développer, tester et soumettre un logiciel pour piloter de manière autonome <strong>CAYTU Sito-É</strong> dans les champs de maïs.</p>
+<p>La plateforme de simulation utilisée pour ce défi est <a href="https://gazebosim.org/docs/harmonic/install_ubuntu/">Gazebo Harmonic</a>. Les équipes doivent développer, tester et soumettre un logiciel permettant de réaliser avec succès la navigation autonome du <strong>CAYTU Sito-É</strong> dans le restaurant, de sa position de départ à sa position d&rsquo;arrivée.</p>
+<h2 id="defi-vision">Défi Vision<a class="headerlink" href="#defi-vision" title="Permanent link">&para;</a></h2>
+<p><em>En cours</em></p>
 <p>Les packages <abbr title="Robot Operating System">ROS</abbr> 2 du <strong>CAYTU Sito-É</strong> et les modèles d&rsquo;environnement Gazebo (voir description ci-dessous) sont mis à disposition des équipes pour leur permettre de développer et de tester leurs solutions (voir <a href="https://github.com/PARC-Robotics/PARC2026-Engineers-League">Dépôt GitHub</a>).</p>
+<h2 id="defi-de-vision">Défi de Vision<a class="headerlink" href="#defi-de-vision" title="Permanent link">&para;</a></h2>
 <h3 id="le-caytu-sito-e">Le CAYTU Sito-É<a class="headerlink" href="#le-caytu-sito-e" title="Permanent link">&para;</a></h3>
-<p>Le <strong>CAYTU Sito-É</strong> est un véhicule terrestre sans pilote (UGV) équipé de différents capteurs pour vous aider à atteindre vos objectifs. Ces capteurs sont :</p>
+<p>Le <strong>CAYTU Sito-É</strong> est un véhicule terrestre sans pilote (UGV) équipé de différents capteurs pour vous aider à atteindre votre objectif. Ces capteurs sont les suivants :</p>
 <ul>
 <li>
-<p><strong>RPLIDAR C1:</strong> Un capteur lidar situé en haut de la base du robot. Le RPLIDAR C1 publie le sujet <code>/scan</code>.</p>
+<p><strong>RPLIDAR C1 :</strong> Un capteur LiDAR situé sur le dessus de la base du robot. Le RPLIDAR C1 publie ses données sur le sujet <code>/scan</code>.</p>
 </li>
 <li>
-<p><strong>RGB Camera (x2):</strong> Deux caméras RVB latérales sont installées à gauche et à droite du robot. Suspendues à un surplomb, elles offrent une vue aérienne des terres agricoles. Les sujets publiés par ces caméras sont nommés « /left_camera/ » et <code>/right_camera/</code>.</p>
+<p><strong>Caméras de profondeur D435i (x2) :</strong> Une caméra est montée sous le robot et l’autre vers sa base. Ces caméras publient des données couleur sur les sujets <code>/top_camera_color/image_raw</code> et <code>/bottom_camera_color/image_raw</code>, ainsi que des données de nuage de points 3D sur <code>/top_camera_depth/points</code> et <code>/bottom_camera_depth/points</code>. Des sujets sont également dédiés aux images compressées, qui utilisent une bande passante inférieure à celle des images brutes standard. Concernant la caméra D435i supérieure, les sujets correspondants sont <code>/top_camera_color/image_raw/compressed</code> et <code>/top_camera_color/image_raw/theora</code>, des sujets similaires étant disponibles pour la caméra D435i inférieure.</p>
 </li>
 <li>
-<p><strong>ZED 2i Camera:</strong> Il s&rsquo;agit d&rsquo;une caméra stéréo située à l&rsquo;avant de la base du robot. Elle publie tous les sujets <code>/zed2/</code>, y compris les données de nuages ​​de points (<code>/zed2/point_cloud/cloud_registered</code>).</p>
-</li>
-<li>
-<p><strong>IMU :</strong> Un capteur IMU est ajouté à la base et publié sur le sujet <code>/imu</code>.</p>
+<p><strong>IMU :</strong> Un capteur IMU est ajouté à la caméra de base et publie ses données sur le sujet <code>/imu</code>.</p>
 </li>
 </ul>
 <p>La figure ci-dessous montre l&rsquo;agrobot avec des capteurs étiquetés.</p>
