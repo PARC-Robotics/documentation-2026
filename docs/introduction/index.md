@@ -34,7 +34,7 @@ Detailed instructions for the respective challenges are made available in this d
 
 This phase will take place in-person in Senegal in November 2026. 
 
-The **top 10 teams** that will compete by integrating their innovative solutions on the physical **CAYTU Sito-É**.
+The **top 10 teams** will compete by integrating their innovative solutions on the physical **CAYTU Sito-É**.
 
 ## Certificates & Awards
 

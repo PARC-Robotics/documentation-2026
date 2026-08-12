@@ -31,7 +31,7 @@ Les instructions détaillées relatives à chaque défi sont disponibles dans ce
 
 Cette phase se déroulera en présentiel au Sénégal en novembre 2026.
 
-Les **10 meilleures équipes** s'affronteront en intégrant leurs solutions innovantes sur le site **CAYTU Sito-É**.
+Les **10 meilleures équipes** s'affronteront en intégrant leurs solutions innovantes sur le site physique **CAYTU Sito-É**.
 
 ## Attestations et récompenses
 
