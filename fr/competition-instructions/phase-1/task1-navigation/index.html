@@ -1444,7 +1444,7 @@ Les robots agricoles doivent être capables de se déplacer à travers les cultu
 <p>Dans un nouveau terminal, exécutez le fichier de lancement suivant pour lancer le robot dans Gazebo et RViz :</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_1.launch.py
 </code></pre></div>
-<p>Vous devriez voir l&rsquo;affichage ci-dessous dans Gazebo et RViz respectivement. À droite, le robot est au centre et en haut à gauche se trouve le cercle vert qui représente l&rsquo;emplacement de l&rsquo;objectif.</p>
+<p>Vous devriez voir l&rsquo;affichage ci-dessous dans Gazebo et RViz respectivement. Le robot est au centre et, en haut à gauche, le cercle vert représente la position cible.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Gazebo</label><label for="__tabbed_1_2">RViz</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1478,44 +1478,37 @@ Les robots agricoles doivent être capables de se déplacer à travers les cultu
 <h2 id="regles-de-tache">Règles de Tâche<a class="headerlink" href="#regles-de-tache" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<ul>
-<li>Le temps limite pour terminer la tâche pour <strong>chaque</strong> monde est de <strong>12 minutes (720 secondes)</strong>.</li>
-</ul>
+<p>Le temps imparti pour accomplir la tâche est de <strong>10 minutes (600 secondes)</strong>.</p>
 </li>
 <li>
-<p>La tâche est terminée UNIQUEMENT lorsqu&rsquo;UNE partie du robot se trouve à l&rsquo;intérieur du cercle vert (marqueur d&rsquo;emplacement de l&rsquo;objectif) après avoir suivi le chemin prédéfini comme indiqué ci-dessus.</p>
+<p>La tâche est considérée comme terminée UNIQUEMENT lorsque n&rsquo;importe quelle partie du robot se trouve à l&rsquo;intérieur du cercle vert (marqueur de l&rsquo;objectif).</p>
 </li>
 </ul>
 <h2 id="evaluation-de-lautonomie">Évaluation de l&rsquo;autonomie<a class="headerlink" href="#evaluation-de-lautonomie" title="Permanent link">&para;</a></h2>
-<p>La notation de cette tâche repose sur les critères suivants :</p>
+<p>La notation de cette tâche sera basée sur les critères suivants :</p>
 <table>
 <thead>
 <tr>
 <th>S/N</th>
-<th>Critères/Indicateurs</th>
+<th>Critère/Métrique</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td><strong>Chemin prédéfini</strong></td>
-<td>Suivez le chemin comme expliqué dans <a href="#explorer-plusieurs-mondes">Description du monde</a>.</td>
+<td><strong>Évitement d&rsquo;obstacles</strong></td>
+<td>Le robot doit éviter tout contact avec les obstacles. <strong>(Moins de contacts, c&rsquo;est mieux)</strong></td>
 </tr>
 <tr>
 <td>2</td>
-<td><strong>Évitement d&rsquo;obstacles</strong></td>
-<td>Le robot doit éviter tout contact avec les obstacles. <strong>(Moins de contact, c&rsquo;est mieux)</strong></td>
+<td><strong>Distance finale parcourue jusqu&rsquo;à l&rsquo;objectif</strong></td>
+<td>Distance la plus courte parcourue par le robot (mesurée depuis son centre) jusqu&rsquo;à l&rsquo;objectif, calculée à la fin du temps imparti [10 minutes]. <strong>(Plus la distance est courte, mieux c&rsquo;est)</strong></td>
 </tr>
 <tr>
 <td>3</td>
-<td><strong>Distance finale jusqu&rsquo;à l&rsquo;objectif</strong></td>
-<td>Distance la plus courte entre le robot (mesurée depuis son centre) et l&rsquo;objectif à travers les rangs de culture, calculée à la limite de temps [12 minutes] <strong>(Plus petite, mieux c&rsquo;est)</strong></td>
-</tr>
-<tr>
-<td>4</td>
-<td><strong>Temps de réalisation</strong></td>
-<td>Temps écoulé entre le lancement de la solution et la réalisation de la tâche <strong>(Plus petite, mieux c&rsquo;est)</strong></td>
+<td><strong>Durée d&rsquo;exécution</strong></td>
+<td>Temps écoulé entre le lancement de la solution et la fin de la tâche. <strong>(Plus la durée est courte, mieux c&rsquo;est)</strong></td>
 </tr>
 </tbody>
 </table>
