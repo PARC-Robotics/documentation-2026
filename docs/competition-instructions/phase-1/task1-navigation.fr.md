@@ -15,8 +15,7 @@ Dans un nouveau terminal, exécutez le fichier de lancement suivant pour lancer 
 ros2 launch parc_robot_bringup task_1.launch.py
 ```
 
-Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. À droite, le robot est au centre et en haut à gauche se trouve le cercle vert qui représente l'emplacement de l'objectif.
-
+Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. Le robot est au centre et, en haut à gauche, le cercle vert représente la position cible.
 
 === "Gazebo"
     ![task1_gazebo](../assets/gazebo.png)
@@ -50,17 +49,16 @@ Les fichiers de lancement peuvent également être utilisés dans votre solution
 
 ## Règles de Tâche
 
-* * Le temps limite pour terminer la tâche pour **chaque** monde est de **12 minutes (720 secondes)**.
+* Le temps imparti pour accomplir la tâche est de **10 minutes (600 secondes)**.
 
-* La tâche est terminée UNIQUEMENT lorsqu'UNE partie du robot se trouve à l'intérieur du cercle vert (marqueur d'emplacement de l'objectif) après avoir suivi le chemin prédéfini comme indiqué ci-dessus.
+* La tâche est considérée comme terminée UNIQUEMENT lorsque n'importe quelle partie du robot se trouve à l'intérieur du cercle vert (marqueur de l'objectif).
 
 ## Évaluation de l'autonomie
 
-La notation de cette tâche repose sur les critères suivants :
+La notation de cette tâche sera basée sur les critères suivants :
 
-| S/N | Critères/Indicateurs | Description |
+| S/N | Critère/Métrique | Description |
 | ----------- | ----------- | ------- |
-| 1 | **Chemin prédéfini** | Suivez le chemin comme expliqué dans [Description du monde](#explorer-plusieurs-mondes). |
-| 2 | **Évitement d'obstacles** | Le robot doit éviter tout contact avec les obstacles. **(Moins de contact, c'est mieux)** |
-| 3 | **Distance finale jusqu'à l'objectif** | Distance la plus courte entre le robot (mesurée depuis son centre) et l'objectif à travers les rangs de culture, calculée à la limite de temps [12 minutes] **(Plus petite, mieux c'est)**
-| 4 | **Temps de réalisation** | Temps écoulé entre le lancement de la solution et la réalisation de la tâche **(Plus petite, mieux c'est)** |
+| 1 | **Évitement d'obstacles** | Le robot doit éviter tout contact avec les obstacles. **(Moins de contacts, c'est mieux)** |
+| 2 | **Distance finale parcourue jusqu'à l'objectif** | Distance la plus courte parcourue par le robot (mesurée depuis son centre) jusqu'à l'objectif, calculée à la fin du temps imparti [10 minutes]. **(Plus la distance est courte, mieux c'est)**
+| 3 | **Durée d'exécution** | Temps écoulé entre le lancement de la solution et la fin de la tâche. **(Plus la durée est courte, mieux c'est)** |

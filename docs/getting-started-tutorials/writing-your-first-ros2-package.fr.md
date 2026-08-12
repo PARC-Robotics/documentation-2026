@@ -14,15 +14,27 @@ En supposant que votre espace de travail, `~/ros2_ws/` dans ce cas, soit configu
 │   ├── .
 │   └── .
 └── src/
-    ├── CMakeLists.txt
-    └── PARC2026-Engineers-League/
-        ├── parc_robot/
-        │   ├── .
-        │   ├── .
-        │   ├── CMakeLists.txt
-        │   └── package.xml
-        ├── .
-        └── .
+    ├── LICENSE
+    ├── parc_robot
+    │   ├── CMakeLists.txt
+    │   ├── include
+    │   │   └── parc_robot
+    │   ├── LICENSE
+    │   ├── package.xml
+    │   └── src
+    ├── parc_robot_bringup
+    │   ├── CMakeLists.txt
+    │   ├── config
+    │   │   ├── gz_bridge.yaml
+    │   │   └── task_1_params.yaml
+    │   ├── launch
+    │   │   ├── task_1.launch.py
+    │   │   └── task_2.launch.py
+    │   ├── LICENSE
+    │   ├── models
+    |   │   ├── .
+    ├── .
+    └── README.md
 ```
 
 Accédez d'abord au dossier source de votre espace de travail :
@@ -204,4 +216,6 @@ ros2 run test_publisher move_robot
 
 Si vous avez bien configuré tout, vous devriez voir le robot se déplacer dans Gazebo comme ci-dessous.
 
-<!-- ![publisher demo](assets/getting_started_demo.gif) -->
+![publisher demo](assets/getting_started_demo.gif)
+
+Ceci devrait vous permettre de comprendre comment déplacer le robot en publiant des commandes sur le topic `/robot_base_controller/cmd_vel_unstamped`. Cependant, pour l'épreuve de navigation, les équipes sont encouragées à utiliser le framework de navigation [Nav2](https://docs.nav2.org/index.html){target=_blank}, décrit en détail dans [cette section](../competition-instructions/phase-1/introduction.fr.md/#navigation-challenge) de la documentation.
