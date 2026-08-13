@@ -2,9 +2,9 @@
 
 ## General Description
 
-<!-- ![task1_simulation](../assets/task_sim.gif)
+<!-- ![task1_simulation](../assets/task_sim.gif) -->
 
-Agricultural robots must be able to navigate through crops and farmland, which includes autonomously moving through rows of maize plants on rough terrain. This task involves reaching the end of a row, making a turn, and returning in adjacent rows until the goal location is reached. Teams must develop software to guide the robot through a [pre-defined path](#exploring-multiple-worlds) within the crop rows, from its starting position to the goal location. -->
+An autonomous service robot operating in a stadium should be capable of performing numerous functions with one of the most fundamental being autonomous navigation. The robot should be able to perceive its surroundings with its sensors, in order to detect crowds and obstacles, plan a path around them, follow that trajectory and making adjustments when crowds or obstacles change. Teams must develop a software solution using [Nav2](https://docs.nav2.org/index.html){target=_blank} that guides the robot from its starting position to its goal location.
 
 <!-- Add gif of the robot moving around, mention that the actors won't interfere -->
 

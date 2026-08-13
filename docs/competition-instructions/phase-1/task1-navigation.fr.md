@@ -2,9 +2,9 @@
 
 ## Description Générale
 
-<!-- ![task1_simulation](../assets/task_sim.gif)
+<!-- ![task1_simulation](../assets/task_sim.gif) -->
 
-Les robots agricoles doivent être capables de se déplacer à travers les cultures et les terres agricoles, notamment en se déplaçant de manière autonome dans les rangs de maïs sur terrain accidenté. Cette tâche consiste à atteindre l'extrémité d'un rang, à effectuer un virage et à revenir dans les rangs adjacents jusqu'à l'objectif. Les équipes doivent développer un logiciel pour guider le robot le long d'un [chemin prédéfini](#explorer-plusieurs-mondes) au sein des rangs, de sa position de départ à son objectif. -->
+Un robot de service autonome opérant dans un stade doit être capable d'effectuer de nombreuses fonctions, dont la navigation autonome est l'une des plus fondamentales. Grâce à ses capteurs, le robot doit pouvoir percevoir son environnement afin de détecter les foules et les obstacles, planifier un itinéraire pour les contourner, suivre cette trajectoire et s'adapter en fonction de l'évolution de la situation. Les équipes doivent développer une solution logicielle utilisant [Nav2](https://docs.nav2.org/index.html){target=_blank} qui guide le robot de sa position de départ à sa destination.
 
 ## Instructions pour la tâche
 
