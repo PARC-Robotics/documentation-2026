@@ -1,4 +1,4 @@
-# Défi de Navigation
+# Tâche de Navigation
 
 ## Description Générale
 
@@ -12,7 +12,7 @@ Un robot de service autonome opérant dans un stade doit être capable d'effectu
 Dans un nouveau terminal, exécutez le fichier de lancement suivant pour lancer le robot dans Gazebo et RViz :
 
 ```sh
-ros2 launch parc_robot_bringup task_1.launch.py
+ros2 launch parc_robot_bringup task.launch.py
 ```
 
 Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. Le robot est au centre et, en haut à gauche, le cercle vert représente la position cible.
@@ -33,7 +33,7 @@ Vous devriez voir l'affichage ci-dessous dans Gazebo et RViz respectivement. Le 
 Dans un terminal :
 
 ```sh
-ros2 launch parc_robot_bringup task_1.launch.py
+ros2 launch parc_robot_bringup task.launch.py
 ```
 
 !!! note

@@ -198,7 +198,7 @@ To see it working, first run the robot in simulation by running the following co
 
 ```shell
 source ~/ros2_ws/install/setup.bash
-ros2 launch parc_robot_bringup task_1.launch.py
+ros2 launch parc_robot_bringup task.launch.py
 ```
 
 And run the following commands in another terminal to run this new program,
@@ -212,4 +212,4 @@ If you have set up everything well, you should see the robot moving in Gazebo as
 
 ![publisher demo](assets/getting_started_demo.gif)
 
-This should give you an understanding of how to move the robot by publishing commands on the `/robot_base_controller/cmd_vel_unstamped` topic. However, for the navigation challenge, teams are encouraged to use the [Nav2](https://docs.nav2.org/index.html){target=_blank} navigation framework, which is elaborated on in [this section](../competition-instructions/phase-1/introduction.md/#navigation-challenge) of the documentation.
+This should give you an understanding of how to move the robot by publishing commands on the `/robot_base_controller/cmd_vel_unstamped` topic. However, for the navigation challenge, teams are encouraged to use the [Nav2](https://docs.nav2.org/index.html){target=_blank} navigation framework, which is elaborated on in [this section](../competition-instructions/phase-1/introduction.md/) of the documentation.

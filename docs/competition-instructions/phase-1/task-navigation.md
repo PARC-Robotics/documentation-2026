@@ -1,4 +1,4 @@
-# Navigation Challenge
+# Navigation Task
 
 ## General Description
 
@@ -14,7 +14,7 @@ An autonomous service robot operating in a stadium should be capable of performi
 In a new terminal, run the following launch file to bring up the robot in Gazebo and RViz:
 
 ```sh
-ros2 launch parc_robot_bringup task_1.launch.py
+ros2 launch parc_robot_bringup task.launch.py
 ```
 
 You should see the display below in Gazebo and RViz respectively. The robot is in the middle and towards the top left is the green circle which represents the goal location.
@@ -33,7 +33,7 @@ You should see the display below in Gazebo and RViz respectively. The robot is i
 In one terminal:
 
 ```sh
-ros2 launch parc_robot_bringup task_1.launch.py
+ros2 launch parc_robot_bringup task.launch.py
 ```
 
 !!! note "Note"

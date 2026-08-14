@@ -87,8 +87,7 @@ nav:
     - Competition Instructions:
       - "Phase 1: Simulation":
         - Introduction: competition-instructions/phase-1/introduction.md
-        - "Navigation Challenge": competition-instructions/phase-1/task1-navigation.md
-        - "Vision Challenge": competition-instructions/phase-1/task2-vision.md
+        - "Navigation Task": competition-instructions/phase-1/task-navigation.md
         - How to Submit: competition-instructions/phase-1/how-to-submit.md
       - "Phase 2: Physical Robot": competition-instructions/phase-2/introduction.md
       # - Team Naming Conventions: competition-instructions/team-naming-conventions.md
@@ -122,8 +121,7 @@ plugins:
           Resources and Support: Ressources et soutien
           "Phase 1: Simulation": "Phase 1: Simulation"
           "Phase 2: Physical Robot": "Phase 2: Robot physique"
-          "Task 1": "Défi de Navigation"
-          "Task 2": "Défi de Vision"
+          "Tâche de Navigation": "Tâche de Navigation"
           "Objectives and goals": "Objectifs et objectifs"
           "Prizes and rewards": "Prix et récompenses"
           "How to register": "Comment s'inscrire"

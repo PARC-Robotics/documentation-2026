@@ -19,7 +19,7 @@ cd ~/ros2_ws/src
 
 ## Step 2: Clone the repository
 
-In the same terminal (or in a new one), copy and paste the following:
+In the same terminal (or in a new one), copy and paste the following (make sure to include the full stop at the end):
 ```sh
 cd ~/ros2_ws/src
 git clone https://github.com/PARC-Robotics/PARC2026-Engineers-League.git .
@@ -95,7 +95,7 @@ Gazebo Harmonic is the robot simulator used in the autonomy track of the competi
 If you completed the preceding steps successfully, you should be able to run this ROS 2 launch command which also opens the Gazebo Harmonic and RViz windows:
 
 ```sh
-ros2 launch parc_robot_bringup task_1.launch.py
+ros2 launch parc_robot_bringup task.launch.py
 ```
 ![Gazebo Harmonic window](assets/gazebo.png)
 Gazebo Harmonic window
