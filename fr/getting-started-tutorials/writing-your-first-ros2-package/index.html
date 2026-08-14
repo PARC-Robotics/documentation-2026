@@ -914,42 +914,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../competition-instructions/phase-1/task1-navigation/" class="md-nav__link">
+      <a href="../../competition-instructions/phase-1/task-navigation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Navigation Challenge
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../competition-instructions/phase-1/task2-vision/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Vision Challenge
+    Navigation Task
   
 
     
@@ -1482,7 +1454,7 @@
 </code></pre></div>
 <p>Pour voir le fonctionnement, exécutez d&rsquo;abord le robot en simulation en exécutant la commande suivante dans un terminal :</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nb">source</span><span class="w"> </span>~/ros2_ws/install/setup.bash
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task_1.launch.py
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>ros2<span class="w"> </span>launch<span class="w"> </span>parc_robot_bringup<span class="w"> </span>task.launch.py
 </code></pre></div>
 <p>Et exécutez les commandes suivantes dans un autre terminal pour exécuter ce nouveau programme :</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nb">source</span><span class="w"> </span>~/ros2_ws/install/setup.bash
@@ -1490,7 +1462,7 @@
 </code></pre></div>
 <p>Si vous avez bien configuré tout, vous devriez voir le robot se déplacer dans Gazebo comme ci-dessous.</p>
 <p><img alt="publisher demo" src="../../../getting-started-tutorials/assets/getting_started_demo.gif" /></p>
-<p>Ceci devrait vous permettre de comprendre comment déplacer le robot en publiant des commandes sur le topic <code>/robot_base_controller/cmd_vel_unstamped</code>. Cependant, pour l&rsquo;épreuve de navigation, les équipes sont encouragées à utiliser le framework de navigation <a href="https://docs.nav2.org/index.html" target="_blank">Nav2</a>, décrit en détail dans <a href="../../competition-instructions/phase-1/introduction/#navigation-challenge">cette section</a> de la documentation.</p>
+<p>Ceci devrait vous permettre de comprendre comment déplacer le robot en publiant des commandes sur le topic <code>/robot_base_controller/cmd_vel_unstamped</code>. Cependant, pour l&rsquo;épreuve de navigation, les équipes sont encouragées à utiliser le framework de navigation <a href="https://docs.nav2.org/index.html" target="_blank">Nav2</a>, décrit en détail dans <a href="../../competition-instructions/phase-1/introduction/">cette section</a> de la documentation.</p>
 
 
 
