@@ -98,16 +98,9 @@ Fenêtre Gazebo Harmonic
 ![Fenêtre RViz](assets/rviz.png)
 Fenêtre RViz
 
-
-
-
-
-
-
-
 ## Étape 8 : Contrôler le robot à l'aide d'un clavier
 
-Pour déplacer le PARC AgRobot, vous devez publier/écrire des messages sur le sujet `robot_base_controller/cmd_vel_unstamped`.
+Pour déplacer le CAYTU Sito-É, vous devez publier/écrire des messages sur le sujet `robot_base_controller/cmd_vel_unstamped`.
 
 Tout d'abord, le paquet ROS 2 `teleop_twist_keyboard` est installé. Il nous permettra d'utiliser le clavier pour contrôler le robot dans un terminal, comme suit :
 

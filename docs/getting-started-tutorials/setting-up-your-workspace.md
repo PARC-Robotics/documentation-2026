@@ -105,7 +105,7 @@ RViz window
 
 ## Step 8: Controlling the robot using a keyboard
 
-To move the PARC AgRobot, you need to publish/write messages on the `robot_base_controller/cmd_vel_unstamped` topic.
+To move the CAYTU Sito-É, you need to publish/write messages on the `robot_base_controller/cmd_vel_unstamped` topic.
 
 First of all, the `teleop_twist_keyboard` ROS 2 package is installed which will enable us to use the keyboard to control the robot in a terminal as follows,
 

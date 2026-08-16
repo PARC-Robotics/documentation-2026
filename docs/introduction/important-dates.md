@@ -4,7 +4,7 @@
 
 | Event | Date |
 | --- | --- |
-| Competition Begins | August 10th 2026 |
+| Competition Begins | August 15th 2026 |
 | Simulation Phase Submission Deadline | October 2026 (Date to be confirmed) |
 | Qualified Teams Announced | TBD |
 | Real World Phase for Qualified Teams (Senegal) | November 2026 |
