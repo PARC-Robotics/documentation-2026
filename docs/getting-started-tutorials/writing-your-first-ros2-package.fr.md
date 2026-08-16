@@ -26,10 +26,9 @@ En supposant que votre espace de travail, `~/ros2_ws/` dans ce cas, soit configu
     │   ├── CMakeLists.txt
     │   ├── config
     │   │   ├── gz_bridge.yaml
-    │   │   └── task_1_params.yaml
+    │   │   └── task_params.yaml
     │   ├── launch
-    │   │   ├── task_1.launch.py
-    │   │   └── task_2.launch.py
+    │   │   ├── task.launch.py
     │   ├── LICENSE
     │   ├── models
     |   │   ├── .
