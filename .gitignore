@@ -172,5 +172,5 @@ cython_debug/
 # Built Visual Studio Code Extensions
 *.vsix
 
-# Python virtual environment files
+# Python Virtual Environment files
 .venv/
