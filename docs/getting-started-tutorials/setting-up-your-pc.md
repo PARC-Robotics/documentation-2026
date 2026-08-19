@@ -41,7 +41,7 @@ If you have a Windows PC (or any other operating system different from Ubuntu No
 <!-- !!! note -->
 <!--     If you followed the **Using Docker** option above, please SKIP this step. -->
 
-Once you have a fresh **[Ubuntu Noble Numbat (24.04)](https://releases.ubuntu.com/noble/){target=_blank}** installation, the next step is to install ROS. We are using the [ROS2 Jazzy](https://docs.ros.org/en/jazzy) distribution for this competition. You can install ROS2 Jazzy by following [this guide](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html){target=_blank}, install the Desktop version, `ros-jazzy-desktop`, and follow the rest of the setup guide.
+Once you have a fresh **[Ubuntu Noble Numbat (24.04)](https://releases.ubuntu.com/noble/){target=_blank}** installation, the next step is to install ROS. We are using the [ROS2 Jazzy](https://docs.ros.org/en/jazzy) distribution for this competition. You can install ROS2 Jazzy by following [this guide](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html){target=_blank}, install the Desktop version, `ros-jazzy-desktop`, and follow the rest of the setup guide.
 
 If you prefer video instructions, you can watch this [YouTube video](https://www.youtube.com/watch?v=oTp2UtHZLH0){target=_blank} (there is an accompanying blog post in the video description).
 
