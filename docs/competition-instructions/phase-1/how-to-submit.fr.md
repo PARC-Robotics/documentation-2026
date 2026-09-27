@@ -49,6 +49,4 @@ Suivez ces étapes de soumission :
 
 3. Créez de courtes vidéos de démonstration de votre solution. Vous pouvez le faire en enregistrant votre solution en cours d'exécution dans Gazebo. Assurez-vous que la taille des vidéos est inférieure à 200 Mo.
 
-4. Compressez votre dossier de solution et téléchargez le dossier et les vidéos sur le formulaire de soumission de solution (À FOURNIR)
-
-<!-- 4. Compressez votre dossier de solution et téléchargez le dossier et les vidéos sur le [formulaire de soumission de solution](https://forms.gle/GwE7Tzm9FpYzUVQX9). -->
+4. Compressez votre dossier de solution et téléchargez le dossier et les vidéos sur [le formulaire de soumission de solution](https://forms.gle/aJSS7RXPw8JbAoo67).

@@ -1,13 +1,13 @@
-# Rendez-vous importants
+# Dates Importantes
 
 <!-- ![Motivating image](./assets/timeline.PNG) -->
 
 | Événement | Date |
 | --- | --- |
-| Début de la compétition | 15e août 2026 |
-| Date limite de soumission pour la phase de simulation | Octobre 2026 (Date à confirmer) |
-| Annonce des équipes qualifiées | À déterminer |
-| Phase réelle pour les équipes qualifiées (Sénégal) | Novembre 2026 |
+| Début de la compétition | 15e Août 2026 |
+| Date limite de soumission pour la phase de simulation | 10e Octobre 2026 |
+| Annonce des équipes qualifiées | 17e Octobre 2026 |
+| Phase réelle pour les équipes qualifiées (Sénégal) | 3e - 7e Novembre 2026 |
 
 Veuillez noter que toutes les dates sont susceptibles d'être modifiées. Nous vous invitons à consulter régulièrement cette page pour prendre connaissance des mises à jour et vous assurer d'être informé(e) de tout changement. Si vous avez des questions concernant les dates importantes ou si vous avez besoin d'aide pour respecter les échéances, veuillez nous contacter par courriel à l'adresse [info@parcrobotics.org](mailto:info@parcrobotics.org). Nous serons ravis de vous aider.
 
